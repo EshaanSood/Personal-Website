@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums | Eshaan Sood</title>
+    <meta name="description" content="Eshaan Sood's album collection with ratings.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="index.html" class="nav-logo"><span class="logo-handwritten">Eshaan Sood</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+            </button>
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link">Ventures</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="interests.html" class="nav-link">Interests</a></li>
+                <li><a href="albums.html" class="nav-link active" aria-current="page">Albums</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <div class="page-header-bg"><div class="header-gradient"></div><div class="header-grid" aria-hidden="true"></div></div>
+            <div class="section-container">
+                <span class="section-tag animate-in" data-delay="0">Music</span>
+                <h1 class="page-title animate-in" data-delay="1">Album <span class="title-gradient">Ratings</span></h1>
+                <p class="page-subtitle animate-in" data-delay="2">Music that inspires late-night coding sessions and keeps creativity flowing.</p>
+            </div>
+        </section>
+
+        <section class="albums-section">
+            <div class="section-container">
+                <div class="albums-controls">
+                    <div class="search-container">
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="text" id="album-search" class="search-input" placeholder="Search albums or artists...">
+                    </div>
+                    <div class="filter-container">
+                        <select id="genre-filter" class="filter-select">
+                            <option value="">All Genres</option>
+                        </select>
+                    </div>
+                    <div class="filter-container">
+                        <select id="sort-select" class="filter-select">
+                            <option value="score">Sort by Score</option>
+                            <option value="title">Sort by Title</option>
+                            <option value="artist">Sort by Artist</option>
+                            <option value="year">Sort by Year</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="albums-stats" aria-live="polite">
+                    <span id="albums-count-text">Loading albums...</span>
+                </div>
+
+                <div class="albums-grid" id="albums-list" role="list"></div>
+                
+                <div class="albums-empty" id="albums-empty" hidden>
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+                    <p>No albums found matching your search.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand"><span class="footer-logo-handwritten">Eshaan Sood</span><p class="footer-tagline">Building the future, one commit at a time.</p></div>
+                <div class="footer-links">
+                    <a href="mailto:eshaanksood@gmail.com" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Email</span></a>
+                    <a href="https://linkedin.com/in/eshaansood" target="_blank" rel="noopener" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn</span></a>
+                    <a href="https://github.com/eshaansood" target="_blank" rel="noopener" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg><span>GitHub</span></a>
+                </div>
+            </div>
+            <div class="footer-bottom"><p class="footer-copyright">© 2025 Eshaan Sood. Crafted with precision.</p></div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/albums.js"></script>
+</body>
+</html>

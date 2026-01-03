@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventures | Eshaan Sood</title>
+    <meta name="description" content="Explore Eshaan Sood's ventures - Aevra, LiveSky, and Swarm.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="index.html" class="nav-logo"><span class="logo-handwritten">Eshaan Sood</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+            </button>
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link active" aria-current="page">Ventures</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+                <li><a href="interests.html" class="nav-link">Interests</a></li>
+                <li><a href="albums.html" class="nav-link">Albums</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <div class="page-header-bg"><div class="header-gradient"></div><div class="header-grid" aria-hidden="true"></div></div>
+            <div class="section-container">
+                <span class="section-tag animate-in" data-delay="0">Current Focus</span>
+                <h1 class="page-title animate-in" data-delay="1">What I'm <span class="title-gradient">Building</span></h1>
+                <p class="page-subtitle animate-in" data-delay="2">Turning technically complex ideas into clear, usable products.</p>
+            </div>
+        </section>
+
+        <!-- Venture Cards Grid -->
+        <section class="ventures-overview">
+            <div class="section-container">
+                <div class="ventures-grid">
+                    <!-- Aevra Card -->
+                    <article class="venture-card" onclick="location.href='#aevra'" style="cursor:pointer;">
+                        <div class="card-glow"></div>
+                        <div class="venture-header">
+                            <div class="venture-badge">
+                                <span class="badge-dot"></span>
+                                <span>Active</span>
+                            </div>
+                            <div class="venture-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                                    <circle cx="12" cy="13" r="3"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="venture-title">Aevra</h3>
+                        <p class="venture-category">AI Healthcare</p>
+                        <p class="venture-desc">AI-powered dental software converting clinical notes into visual treatment plans with AI-generated before-and-after media and automated follow-up systems.</p>
+                        <div class="venture-stack">
+                            <span class="stack-item">Python</span>
+                            <span class="stack-item">React</span>
+                            <span class="stack-item">Stable Diffusion</span>
+                            <span class="stack-item">AWS</span>
+                        </div>
+                        <div class="venture-visual">
+                            <div class="visual-mockup-mini">
+                                <div class="mockup-bar"></div>
+                                <div class="mockup-content">
+                                    <div class="mockup-sidebar-mini"></div>
+                                    <div class="mockup-main-mini">
+                                        <div class="mockup-img"></div>
+                                        <div class="mockup-img"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- LiveSky Card -->
+                    <article class="venture-card" onclick="location.href='#livesky'" style="cursor:pointer;">
+                        <div class="card-glow"></div>
+                        <div class="venture-header">
+                            <div class="venture-badge">
+                                <span class="badge-dot"></span>
+                                <span>Active</span>
+                            </div>
+                            <div class="venture-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="venture-title">LiveSky</h3>
+                        <p class="venture-category">Embedded AI / Robotics</p>
+                        <p class="venture-desc">Embedded AI inference hardware integrated directly into flight controllers, unifying real-time control and autonomy on a single platform for drones and robots.</p>
+                        <div class="venture-stack">
+                            <span class="stack-item">C/C++</span>
+                            <span class="stack-item">RTOS</span>
+                            <span class="stack-item">TensorRT</span>
+                            <span class="stack-item">ROS</span>
+                        </div>
+                        <div class="venture-visual">
+                            <div class="visual-chip">
+                                <div class="chip-core"></div>
+                                <div class="chip-pins chip-pins-top"></div>
+                                <div class="chip-pins chip-pins-bottom"></div>
+                                <div class="chip-pins chip-pins-left"></div>
+                                <div class="chip-pins chip-pins-right"></div>
+                                <div class="chip-signal"></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Swarm Card -->
+                    <article class="venture-card" onclick="location.href='#swarm'" style="cursor:pointer;">
+                        <div class="card-glow"></div>
+                        <div class="venture-header">
+                            <div class="venture-badge">
+                                <span class="badge-dot"></span>
+                                <span>Active</span>
+                            </div>
+                            <div class="venture-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <circle cx="19" cy="5" r="2"/>
+                                    <circle cx="5" cy="5" r="2"/>
+                                    <circle cx="19" cy="19" r="2"/>
+                                    <circle cx="5" cy="19" r="2"/>
+                                    <path d="M12 9V6M12 18v-3M9 12H6M18 12h-3M14.5 9.5l2-2M7.5 16.5l2-2M14.5 14.5l2 2M7.5 7.5l2 2"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="venture-title">Swarm</h3>
+                        <p class="venture-category">Distributed Systems / AI Agents</p>
+                        <p class="venture-desc">Distributed autonomous marketing agents coordinating loosely to promote content at scale through diverse, asynchronous actions for emergent amplification.</p>
+                        <div class="venture-stack">
+                            <span class="stack-item">Python</span>
+                            <span class="stack-item">LangChain</span>
+                            <span class="stack-item">Redis</span>
+                            <span class="stack-item">Kubernetes</span>
+                        </div>
+                        <div class="venture-visual">
+                            <div class="visual-swarm">
+                                <div class="swarm-node swarm-node-1"></div>
+                                <div class="swarm-node swarm-node-2"></div>
+                                <div class="swarm-node swarm-node-3"></div>
+                                <div class="swarm-node swarm-node-4"></div>
+                                <div class="swarm-node swarm-node-5"></div>
+                                <div class="swarm-center"></div>
+                                <svg class="swarm-lines" viewBox="0 0 100 100">
+                                    <line x1="50" y1="50" x2="20" y2="25" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                                    <line x1="50" y1="50" x2="80" y2="25" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                                    <line x1="50" y1="50" x2="15" y2="70" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                                    <line x1="50" y1="50" x2="85" y2="70" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                                    <line x1="50" y1="50" x2="50" y2="85" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aevra Detail -->
+        <section class="venture-detail" id="aevra">
+            <div class="section-container">
+                <article class="venture-detail-card">
+                    <div class="venture-detail-glow" aria-hidden="true"></div>
+                    <div class="venture-detail-content">
+                        <div class="venture-detail-header">
+                            <div class="venture-badge"><span class="badge-dot"></span><span>Active Development</span></div>
+                            <h2 class="venture-detail-title">Aevra</h2>
+                            <a href="https://aevra.ai" target="_blank" rel="noopener" class="venture-detail-link">Visit aevra.ai →</a>
+                            <p class="venture-detail-category">AI Healthcare</p>
+                        </div>
+                        <p class="venture-detail-desc">AI-powered dental software that converts patient clinical notes into visual treatment plans with AI-generated before-and-after media and automated patient follow-up systems. We're building the infrastructure to help dental practices communicate treatment value more effectively and increase case acceptance rates.</p>
+                        <div class="venture-detail-features">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Natural language processing of clinical notes to extract treatment requirements</li>
+                                <li>AI-generated visualizations showing expected treatment outcomes</li>
+                                <li>Automated patient communication and follow-up sequences</li>
+                                <li>Integration with existing practice management systems</li>
+                            </ul>
+                        </div>
+                        <div class="venture-detail-stats">
+                            <div class="stat"><span class="stat-value">85%</span><span class="stat-label">Time Saved</span></div>
+                            <div class="stat"><span class="stat-value">34%</span><span class="stat-label">Higher Acceptance</span></div>
+                            <div class="stat"><span class="stat-value">5</span><span class="stat-label">Practices Live</span></div>
+                        </div>
+                        <div class="venture-detail-stack">
+                            <span class="stack-item">Python</span>
+                            <span class="stack-item">FastAPI</span>
+                            <span class="stack-item">React</span>
+                            <span class="stack-item">PostgreSQL</span>
+                            <span class="stack-item">AWS</span>
+                            <span class="stack-item">Stable Diffusion</span>
+                            <span class="stack-item">GPT-4</span>
+                        </div>
+                    </div>
+                    <div class="venture-detail-visual" aria-hidden="true">
+                        <div class="visual-mockup">
+                            <div class="mockup-window">
+                                <div class="window-header"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span></div>
+                                <div class="window-content">
+                                    <div class="mockup-sidebar"></div>
+                                    <div class="mockup-main">
+                                        <div class="mockup-card"></div>
+                                        <div class="mockup-card"></div>
+                                        <div class="mockup-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- LiveSky Detail -->
+        <section class="venture-detail" id="livesky">
+            <div class="section-container">
+                <article class="venture-detail-card">
+                    <div class="venture-detail-glow" aria-hidden="true"></div>
+                    <div class="venture-detail-content">
+                        <div class="venture-detail-header">
+                            <div class="venture-badge"><span class="badge-dot"></span><span>Active Development</span></div>
+                            <h2 class="venture-detail-title">LiveSky</h2>
+                            <a href="https://livesky.co" target="_blank" rel="noopener" class="venture-detail-link">Visit livesky.co →</a>
+                            <p class="venture-detail-category">Embedded AI / Robotics</p>
+                        </div>
+                        <p class="venture-detail-desc">LiveSky integrates embedded AI inference hardware directly into flight controllers, unifying real-time control and autonomy workloads on a single platform to reduce hardware complexity, latency, and software integration overhead for autonomous drones and robots.</p>
+                        <div class="venture-detail-features">
+                            <h4>Technical Approach</h4>
+                            <ul>
+                                <li>Custom hardware design merging flight controller and AI accelerator</li>
+                                <li>Real-time operating system optimized for deterministic AI inference</li>
+                                <li>Sub-5ms latency from sensor input to motor output</li>
+                                <li>Unified software stack eliminating inter-board communication overhead</li>
+                            </ul>
+                        </div>
+                        <div class="venture-detail-stats">
+                            <div class="stat"><span class="stat-value">&lt;5ms</span><span class="stat-label">Inference Latency</span></div>
+                            <div class="stat"><span class="stat-value">1</span><span class="stat-label">Unified Platform</span></div>
+                            <div class="stat"><span class="stat-value">50%</span><span class="stat-label">Less Hardware</span></div>
+                        </div>
+                        <div class="venture-detail-stack">
+                            <span class="stack-item">C/C++</span>
+                            <span class="stack-item">RTOS</span>
+                            <span class="stack-item">TensorRT</span>
+                            <span class="stack-item">ROS 2</span>
+                            <span class="stack-item">ARM Cortex</span>
+                            <span class="stack-item">NVIDIA Jetson</span>
+                        </div>
+                    </div>
+                    <div class="venture-detail-visual" aria-hidden="true">
+                        <div class="visual-chip-large">
+                            <div class="chip-board">
+                                <div class="chip-main">
+                                    <div class="chip-core-large"></div>
+                                    <div class="chip-label">AI</div>
+                                </div>
+                                <div class="chip-traces">
+                                    <div class="trace trace-1"></div>
+                                    <div class="trace trace-2"></div>
+                                    <div class="trace trace-3"></div>
+                                    <div class="trace trace-4"></div>
+                                </div>
+                                <div class="chip-component chip-comp-1"></div>
+                                <div class="chip-component chip-comp-2"></div>
+                                <div class="chip-component chip-comp-3"></div>
+                                <div class="chip-led"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Swarm Detail -->
+        <section class="venture-detail" id="swarm">
+            <div class="section-container">
+                <article class="venture-detail-card">
+                    <div class="venture-detail-glow" aria-hidden="true"></div>
+                    <div class="venture-detail-content">
+                        <div class="venture-detail-header">
+                            <div class="venture-badge"><span class="badge-dot"></span><span>Active Development</span></div>
+                            <h2 class="venture-detail-title">Swarm</h2>
+                            <a href="https://google.com" target="_blank" rel="noopener" class="venture-detail-link">Coming Soon →</a>
+                            <p class="venture-detail-category">Distributed Systems / AI Agents</p>
+                        </div>
+                        <p class="venture-detail-desc">Swarm is a distributed system of autonomous marketing agents that coordinate loosely to promote content at scale through diverse, asynchronous, and redundant actions, producing emergent amplification while minimizing dependence on any single account or post.</p>
+                        <div class="venture-detail-features">
+                            <h4>Architecture</h4>
+                            <ul>
+                                <li>Decentralized agent coordination without single points of failure</li>
+                                <li>Diverse action strategies that mimic organic engagement patterns</li>
+                                <li>Asynchronous task distribution with automatic load balancing</li>
+                                <li>Self-healing network that adapts to account restrictions</li>
+                            </ul>
+                        </div>
+                        <div class="venture-detail-stats">
+                            <div class="stat"><span class="stat-value">N</span><span class="stat-label">Autonomous Agents</span></div>
+                            <div class="stat"><span class="stat-value">0</span><span class="stat-label">Single Points of Failure</span></div>
+                            <div class="stat"><span class="stat-value">∞</span><span class="stat-label">Scale Potential</span></div>
+                        </div>
+                        <div class="venture-detail-stack">
+                            <span class="stack-item">Python</span>
+                            <span class="stack-item">LangChain</span>
+                            <span class="stack-item">Redis</span>
+                            <span class="stack-item">Kubernetes</span>
+                            <span class="stack-item">PostgreSQL</span>
+                            <span class="stack-item">Celery</span>
+                        </div>
+                    </div>
+                    <div class="venture-detail-visual" aria-hidden="true">
+                        <div class="visual-swarm-large">
+                            <div class="swarm-network">
+                                <div class="swarm-agent agent-1"><div class="agent-pulse"></div></div>
+                                <div class="swarm-agent agent-2"><div class="agent-pulse"></div></div>
+                                <div class="swarm-agent agent-3"><div class="agent-pulse"></div></div>
+                                <div class="swarm-agent agent-4"><div class="agent-pulse"></div></div>
+                                <div class="swarm-agent agent-5"><div class="agent-pulse"></div></div>
+                                <div class="swarm-agent agent-6"><div class="agent-pulse"></div></div>
+                                <div class="swarm-hub"></div>
+                                <svg class="swarm-connections" viewBox="0 0 200 200">
+                                    <line x1="100" y1="100" x2="30" y2="40" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                    <line x1="100" y1="100" x2="170" y2="40" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                    <line x1="100" y1="100" x2="20" y2="100" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                    <line x1="100" y1="100" x2="180" y2="100" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                    <line x1="100" y1="100" x2="40" y2="160" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                    <line x1="100" y1="100" x2="160" y2="160" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                    <line x1="30" y1="40" x2="170" y2="40" stroke="currentColor" stroke-width="0.5" opacity="0.1"/>
+                                    <line x1="20" y1="100" x2="40" y2="160" stroke="currentColor" stroke-width="0.5" opacity="0.1"/>
+                                    <line x1="180" y1="100" x2="160" y2="160" stroke="currentColor" stroke-width="0.5" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand"><span class="footer-logo-handwritten">Eshaan Sood</span><p class="footer-tagline">Building the future, one commit at a time.</p></div>
+                <div class="footer-links">
+                    <a href="mailto:eshaanksood@gmail.com" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Email</span></a>
+                    <a href="https://linkedin.com/in/eshaansood" target="_blank" rel="noopener" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn</span></a>
+                    <a href="https://github.com/eshaansood" target="_blank" rel="noopener" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg><span>GitHub</span></a>
+                </div>
+            </div>
+            <div class="footer-bottom"><p class="footer-copyright">© 2025 Eshaan Sood. Crafted with precision.</p></div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

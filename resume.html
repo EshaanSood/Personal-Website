@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Eshaan Sood</title>
+    <meta name="description" content="Eshaan Sood's resume - Computer Engineering student at UIUC.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="index.html" class="nav-logo"><span class="logo-handwritten">Eshaan Sood</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+            </button>
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="projects.html" class="nav-link">Ventures</a></li>
+                <li><a href="resume.html" class="nav-link active" aria-current="page">Resume</a></li>
+                <li><a href="interests.html" class="nav-link">Interests</a></li>
+                <li><a href="albums.html" class="nav-link">Albums</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <div class="page-header-bg"><div class="header-gradient"></div><div class="header-grid" aria-hidden="true"></div></div>
+            <div class="section-container">
+                <span class="section-tag animate-in" data-delay="0">Background</span>
+                <h1 class="page-title animate-in" data-delay="1">My <span class="title-gradient">Resume</span></h1>
+                <p class="page-subtitle animate-in" data-delay="2">Education, experience, and technical skills.</p>
+                <div class="resume-download animate-in" data-delay="3">
+                    <a href="resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                        <span>Download PDF</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-modern">
+            <div class="section-container">
+                
+                <!-- Education -->
+                <div class="resume-block">
+                    <h2 class="resume-block-title">Education</h2>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>University of Illinois, Urbana-Champaign</h3>
+                                <span class="timeline-date">Aug 2023 – May 2027</span>
+                            </div>
+                            <p class="timeline-subtitle">B.S. Computer Engineering · GPA 3.60 · James Scholar</p>
+                            <p class="timeline-text">Data Structures, Computer Systems (OS), Interactive Computer Graphics, Game Development, Analog Signal Processing, Linear Algebra, Numerical Methods</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="resume-block">
+                    <h2 class="resume-block-title">Experience</h2>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker active"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Aevra <span class="timeline-role">Co-Founder</span></h3>
+                                <span class="timeline-date">Oct 2025 – Present</span>
+                            </div>
+                            <p class="timeline-location">Chicago, IL</p>
+                            <ul class="timeline-bullets">
+                                <li>Built automated treatment-plan engine reducing dentist workflow time by ~80%</li>
+                                <li>Deployed FastAPI + AWS backend (EC2, Cognito, S3) for PHI-compliant dental care plans</li>
+                                <li>Integrated Nano Banana Pro API for AI-generated treatment visualizations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Simplify Tech <span class="timeline-role">Software Automation Intern</span></h3>
+                                <span class="timeline-date">Jun – Aug 2025</span>
+                            </div>
+                            <p class="timeline-location">New York City, NY (Remote)</p>
+                            <ul class="timeline-bullets">
+                                <li>Designed Python + API automation systems, cutting client workload 50-70%</li>
+                                <li>Generated $15K–$40K annual savings per client through workflow optimization</li>
+                                <li>Reduced manual processing time by ~65% via data pipeline engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>WaggleNet <span class="timeline-role">Research Intern</span></h3>
+                                <span class="timeline-date">Sep 2024 – Sep 2025</span>
+                            </div>
+                            <p class="timeline-location">Champaign, IL</p>
+                            <ul class="timeline-bullets">
+                                <li>Built C++ computer vision pipeline (OpenCV, Libtorch, TensorFlow) improving accuracy 45%</li>
+                                <li>Reduced false-positives 30% via error analysis and threshold calibration</li>
+                                <li>Integrated embedded hardware with real-time inference workflows</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="resume-block">
+                    <h2 class="resume-block-title">Projects</h2>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker active"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>NOBE Consulting <span class="timeline-role">Team Lead</span></h3>
+                                <span class="timeline-date">Sep 2025 – Present</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Led 12-member team for drone-tech startup with 100% on-time delivery</li>
+                                <li>Benchmarked 20+ firms, identifying opportunities to increase TAM capture 25%</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker active"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>AI Assistant Headset <span class="timeline-tech">Python, Flask, OpenAI</span></h3>
+                                <span class="timeline-date">Feb 2025 – Present</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>360° perception headset achieving 85%+ accuracy with low-latency inference</li>
+                                <li>Reduced power consumption 30%, enabling 6+ hours on-device operation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>Custom Unix OS <span class="timeline-tech">C, RISC-V, Assembly</span></h3>
+                                <span class="timeline-date">Oct – Dec 2025</span>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Led team of 3 building modular Unix-like kernel with VirtIO block device</li>
+                                <li>Implemented Sv39 paging, preemptive multitasking, filesystem abstractions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="resume-block">
+                    <h2 class="resume-block-title">Skills</h2>
+                    <div class="skills-compact">
+                        <div class="skill-row">
+                            <span class="skill-label">Languages</span>
+                            <span class="skill-list">Python, C/C++, Java, JavaScript, HTML/CSS, RISC-V Assembly, SQL</span>
+                        </div>
+                        <div class="skill-row">
+                            <span class="skill-label">Tools</span>
+                            <span class="skill-list">Git, Docker, VS Code, KiCAD, GDB, QEMU</span>
+                        </div>
+                        <div class="skill-row">
+                            <span class="skill-label">Libraries</span>
+                            <span class="skill-list">PyTorch, OpenCV, Pandas, NumPy, SciPy, Matplotlib, NLTK, BeautifulSoup</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand"><span class="footer-logo-handwritten">Eshaan Sood</span><p class="footer-tagline">Building the future, one commit at a time.</p></div>
+                <div class="footer-links">
+                    <a href="mailto:eshaanksood@gmail.com" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>Email</span></a>
+                    <a href="https://linkedin.com/in/eshaansood" target="_blank" rel="noopener" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn</span></a>
+                    <a href="https://github.com/eshaansood" target="_blank" rel="noopener" class="footer-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg><span>GitHub</span></a>
+                </div>
+            </div>
+            <div class="footer-bottom"><p class="footer-copyright">© 2025 Eshaan Sood. Crafted with precision.</p></div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
