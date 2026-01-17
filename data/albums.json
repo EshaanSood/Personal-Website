@@ -16,6 +16,9 @@
   { "title": "Get Rich Or Die Trying", "artist": "50 Cent", "year": 2003, "genre": "Hip-Hop", "score": 9 },
   { "title": "The Massacre", "artist": "50 Cent", "year": 2005, "genre": "Hip-Hop", "score": 7 },
 
+  { "title": "JACKBOYS", "artist": "JACKBOYS", "year": 2019, "genre": "Hip-Hop", "score": 7 },
+  { "title": "JACKBOYS 2", "artist": "JACKBOYS", "year": 2019, "genre": "Hip-Hop", "score": 2 },
+
   { "title": "Enter The Wu-Tang (36 Chambers)", "artist": "Wu-Tang Clan", "year": 1993, "genre": "Hip-Hop", "score": 9 },
 
   { "title": "good kid, m.A.A.d city", "artist": "Kendrick Lamar", "year": 2012, "genre": "Hip-Hop", "score": 9 },
