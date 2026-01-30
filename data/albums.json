@@ -3,34 +3,24 @@
   { "title": "The Marshall Mathers LP", "artist": "Eminem", "year": 2000, "genre": "Hip-Hop", "score": 10 },
   { "title": "The Eminem Show", "artist": "Eminem", "year": 2002, "genre": "Hip-Hop", "score": 10 },
   { "title": "Music To Be Murdered By", "artist": "Eminem", "year": 2020, "genre": "Hip-Hop", "score": 5 },
-  { "title": "Music To Be Murdered By – Side B", "artist": "Eminem", "year": 2020, "genre": "Hip-Hop", "score": 6 },
-  { "title": "The Death of Slim Shady (Coup de Grâce)", "artist": "Eminem", "year": 2024, "genre": "Hip-Hop", "score": 4 },
-
+  { "title": "Music To Be Murdered By - Side B", "artist": "Eminem", "year": 2020, "genre": "Hip-Hop", "score": 6 },
+  { "title": "The Death of Slim Shady (Coup de Grace)", "artist": "Eminem", "year": 2024, "genre": "Hip-Hop", "score": 4 },
   { "title": "Illmatic", "artist": "Nas", "year": 1994, "genre": "Hip-Hop", "score": 10 },
-
   { "title": "The Chronic", "artist": "Dr. Dre", "year": 1992, "genre": "Hip-Hop", "score": 8 },
   { "title": "2001", "artist": "Dr. Dre", "year": 1999, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "Straight Outta Compton", "artist": "N.W.A.", "year": 1988, "genre": "Hip-Hop", "score": 10 },
-
   { "title": "Get Rich Or Die Trying", "artist": "50 Cent", "year": 2003, "genre": "Hip-Hop", "score": 9 },
   { "title": "The Massacre", "artist": "50 Cent", "year": 2005, "genre": "Hip-Hop", "score": 7 },
-
   { "title": "JACKBOYS", "artist": "JACKBOYS", "year": 2019, "genre": "Hip-Hop", "score": 7 },
   { "title": "JACKBOYS 2", "artist": "JACKBOYS", "year": 2019, "genre": "Hip-Hop", "score": 2 },
-
   { "title": "Enter The Wu-Tang (36 Chambers)", "artist": "Wu-Tang Clan", "year": 1993, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "good kid, m.A.A.d city", "artist": "Kendrick Lamar", "year": 2012, "genre": "Hip-Hop", "score": 9 },
   { "title": "To Pimp A Butterfly", "artist": "Kendrick Lamar", "year": 2015, "genre": "Hip-Hop", "score": 10 },
   { "title": "DAMN.", "artist": "Kendrick Lamar", "year": 2017, "genre": "Hip-Hop / Trap", "score": 7 },
   { "title": "Mr. Morale & The Big Steppers", "artist": "Kendrick Lamar", "year": 2022, "genre": "Hip-Hop", "score": 6 },
   { "title": "GNX", "artist": "Kendrick Lamar", "year": 2024, "genre": "Hip-Hop", "score": 4 },
-
   { "title": "Kaleidoscope Phonetics", "artist": "Science of Sound", "year": 2020, "genre": "Hip-Hop", "score": 6 },
-
   { "title": "MORE BLACK SUPERHEROES", "artist": "WESTSIDE BOOGIE", "year": 2022, "genre": "Hip-Hop", "score": 4 },
-
   { "title": "The College Dropout", "artist": "Kanye West", "year": 2004, "genre": "Hip-Hop", "score": 9 },
   { "title": "Late Registration", "artist": "Kanye West", "year": 2005, "genre": "Hip-Hop", "score": 7 },
   { "title": "Graduation", "artist": "Kanye West", "year": 2007, "genre": "Hip-Hop", "score": 10 },
@@ -40,111 +30,68 @@
   { "title": "The Life of Pablo", "artist": "Kanye West", "year": 2016, "genre": "Hip-Hop / Trap", "score": 5 },
   { "title": "ye", "artist": "Kanye West", "year": 2018, "genre": "Hip-Hop", "score": 7 },
   { "title": "Kids See Ghosts", "artist": "Kids See Ghosts", "year": 2018, "genre": "Hip-Hop / Experimental", "score": 7 },
-
   { "title": "The Forever Story", "artist": "JID", "year": 2022, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "Baby On Baby", "artist": "DaBaby", "year": 2019, "genre": "Trap", "score": 6 },
   { "title": "KIRK", "artist": "DaBaby", "year": 2019, "genre": "Trap", "score": 5 },
   { "title": "BLAME IT ON BABY", "artist": "DaBaby", "year": 2020, "genre": "Trap", "score": 2 },
   { "title": "BABY ON BABY 2", "artist": "DaBaby", "year": 2022, "genre": "Trap", "score": 1 },
-
   { "title": "2014 Forest Hills Drive", "artist": "J. Cole", "year": 2014, "genre": "Hip-Hop", "score": 8 },
-
   { "title": "Lil Boat 3", "artist": "Lil Yachty", "year": 2020, "genre": "Trap", "score": 7 },
-  { "title": "Let’s Start Here.", "artist": "Lil Yachty", "year": 2023, "genre": "Psychedelic Rock / Alternative", "score": 8 },
-
+  { "title": "Lets Start Here.", "artist": "Lil Yachty", "year": 2023, "genre": "Psychedelic Rock / Alternative", "score": 8 },
   { "title": "JEFFERY", "artist": "Young Thug", "year": 2016, "genre": "Trap", "score": 8 },
   { "title": "BUSINESS IS BUSINESS", "artist": "Young Thug", "year": 2023, "genre": "Trap", "score": 5 },
-
   { "title": "Paramore", "artist": "Paramore", "year": 2013, "genre": "Alternative Rock", "score": 9 },
-
   { "title": "s*x m*ney dr*gs", "artist": "Lucki", "year": 2019, "genre": "Trap", "score": 3 },
-
   { "title": "Tha Carter III", "artist": "Lil Wayne", "year": 2008, "genre": "Hip-Hop", "score": 8 },
-
   { "title": "Nightmare Vacation", "artist": "Rico Nasty", "year": 2020, "genre": "Hip-Hop / Trap / Punk", "score": 2 },
-
   { "title": "The Don Killuminati: The 7 Day Theory", "artist": "2Pac / Makaveli", "year": 1996, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "Artist", "artist": "A Boogie wit da Hoodie", "year": 2016, "genre": "Trap", "score": 5 },
   { "title": "A Bigger Artist", "artist": "A Boogie wit da Hoodie", "year": 2017, "genre": "Trap", "score": 7 },
   { "title": "Hoodie SZN", "artist": "A Boogie wit da Hoodie", "year": 2018, "genre": "Trap", "score": 7 },
-
   { "title": "Rodeo", "artist": "Travis Scott", "year": 2015, "genre": "Hip-Hop / Trap", "score": 10 },
   { "title": "Birds In The Trap Sing McKnight", "artist": "Travis Scott", "year": 2016, "genre": "Trap", "score": 4 },
   { "title": "ASTROWORLD", "artist": "Travis Scott", "year": 2018, "genre": "Trap", "score": 9 },
   { "title": "UTOPIA", "artist": "Travis Scott", "year": 2023, "genre": "Trap / Experimental", "score": 7 },
-
   { "title": "The Dark Side of the Moon", "artist": "Pink Floyd", "year": 1973, "genre": "Progressive Rock", "score": 10 },
-
   { "title": "Abhi vs The Universe II", "artist": "Abhi the Nomad", "year": 2022, "genre": "Hip-Hop", "score": 3 },
-
   { "title": "As Nasty As They Wanna Be", "artist": "2 Live Crew", "year": 1989, "genre": "Hip-Hop", "score": 7 },
-
   { "title": "Heaven or Hell", "artist": "Don Toliver", "year": 2020, "genre": "Trap", "score": 7 },
   { "title": "Love Sick", "artist": "Don Toliver", "year": 2023, "genre": "Trap / R&B", "score": 5 },
   { "title": "HARDSTONE PSYCHO", "artist": "Don Toliver", "year": 2024, "genre": "Trap", "score": 5 },
   { "title": "Octane", "artist": "Don Toliver", "year": 2026, "genre": "Hip-Hop / Rap", "score": 8 },
-
   { "title": "Atrocity Exhibition", "artist": "Danny Brown", "year": 2016, "genre": "Hip-Hop / Experimental", "score": 8 },
   { "title": "SCARING THE HOES", "artist": "Danny Brown & JPEGMAFIA", "year": 2023, "genre": "Hip-Hop / Experimental", "score": 8 },
-
   { "title": "The E.N.D.", "artist": "The Black Eyed Peas", "year": 2009, "genre": "Pop / Hip-Hop", "score": 9 },
-
   { "title": "Raising Hell", "artist": "Run-D.M.C.", "year": 1986, "genre": "Hip-Hop", "score": 8 },
-
   { "title": "1999", "artist": "Joey Bada$$", "year": 2012, "genre": "Hip-Hop", "score": 7 },
-
   { "title": "Deltron 3030", "artist": "Deltron 3030", "year": 2000, "genre": "Hip-Hop / Experimental", "score": 6 },
-
-  { "title": "WE DON’T TRUST YOU", "artist": "Future & Metro Boomin", "year": 2024, "genre": "Trap", "score": 7 },
-  { "title": "WE STILL DON’T TRUST YOU", "artist": "Future & Metro Boomin", "year": 2024, "genre": "Trap", "score": 3 },
-
+  { "title": "WE DONT TRUST YOU", "artist": "Future & Metro Boomin", "year": 2024, "genre": "Trap", "score": 7 },
+  { "title": "WE STILL DONT TRUST YOU", "artist": "Future & Metro Boomin", "year": 2024, "genre": "Trap", "score": 3 },
   { "title": "Alone At Prom (Deluxe)", "artist": "Tory Lanez", "year": 2022, "genre": "R&B / Synth-Pop", "score": 9 },
-
   { "title": "Without Warning", "artist": "Metro Boomin", "year": 2017, "genre": "Trap", "score": 8 },
   { "title": "HEROES & VILLAINS", "artist": "Metro Boomin", "year": 2022, "genre": "Trap", "score": 10 },
-
   { "title": "BLUE LIPS", "artist": "ScHoolboy Q", "year": 2024, "genre": "Hip-Hop", "score": 6 },
-
   { "title": "BRAT", "artist": "Charli xcx", "year": 2024, "genre": "Pop / Electronic", "score": 8 },
-
   { "title": "A Great Chaos (Deluxe)", "artist": "Ken Carson", "year": 2023, "genre": "Trap", "score": 6 },
   { "title": "More Chaos", "artist": "Ken Carson", "year": 2024, "genre": "Trap", "score": 4 },
-
   { "title": "?", "artist": "XXXTENTACION", "year": 2018, "genre": "Hip-Hop / Trap / Emo Rap", "score": 9 },
-
   { "title": "It Takes A Nation Of Millions To Hold Us Back", "artist": "Public Enemy", "year": 1988, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "Ready to Die", "artist": "The Notorious B.I.G.", "year": 1994, "genre": "Hip-Hop", "score": 7 },
-
   { "title": "Doggystyle", "artist": "Snoop Dogg", "year": 1993, "genre": "Hip-Hop", "score": 5 },
-
   { "title": "The Blueprint", "artist": "Jay-Z", "year": 2001, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "The Melodic Blue", "artist": "Baby Keem", "year": 2021, "genre": "Hip-Hop / Trap", "score": 8 },
-
   { "title": "Good News", "artist": "Megan Thee Stallion", "year": 2020, "genre": "Hip-Hop / Trap", "score": 7 },
-
   { "title": "CALL ME IF YOU GET LOST", "artist": "Tyler, The Creator", "year": 2021, "genre": "Hip-Hop", "score": 6 },
   { "title": "IGOR", "artist": "Tyler, The Creator", "year": 2019, "genre": "Hip-Hop", "score": 7 },
-
   { "title": "After Hours", "artist": "The Weeknd", "year": 2020, "genre": "R&B / Pop", "score": 7 },
-
   { "title": "CARE FOR ME", "artist": "Saba", "year": 2018, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "Culture", "artist": "Migos", "year": 2017, "genre": "Trap", "score": 9 },
   { "title": "Culture II", "artist": "Migos", "year": 2018, "genre": "Trap", "score": 8 },
-
   { "title": "Playboi Carti", "artist": "Playboi Carti", "year": 2017, "genre": "Trap", "score": 10 },
   { "title": "MUSIC", "artist": "Playboi Carti", "year": 2025, "genre": "Trap / Experimental", "score": 2 },
-
-  { "title": "God Don’t Make Mistakes", "artist": "Conway The Machine", "year": 2022, "genre": "Hip-Hop", "score": 9 },
-
+  { "title": "God Dont Make Mistakes", "artist": "Conway The Machine", "year": 2022, "genre": "Hip-Hop", "score": 9 },
   { "title": "Alfredo", "artist": "Freddie Gibbs & The Alchemist", "year": 2020, "genre": "Hip-Hop", "score": 9 },
-
   { "title": "DS4EVER", "artist": "Gunna", "year": 2022, "genre": "Trap", "score": 6 },
-
   { "title": "Spider-Man: Into the Spider-Verse (Soundtrack)", "artist": "Various Artists", "year": 2018, "genre": "Soundtrack / Hip-Hop", "score": 9 },
   { "title": "METRO BOOMIN PRESENTS: SPIDER-MAN ACROSS THE SPIDER-VERSE", "artist": "Metro Boomin", "year": 2023, "genre": "Soundtrack / Trap", "score": 3 }
 ]
