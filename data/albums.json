@@ -84,6 +84,7 @@
   { "title": "Heaven or Hell", "artist": "Don Toliver", "year": 2020, "genre": "Trap", "score": 7 },
   { "title": "Love Sick", "artist": "Don Toliver", "year": 2023, "genre": "Trap / R&B", "score": 5 },
   { "title": "HARDSTONE PSYCHO", "artist": "Don Toliver", "year": 2024, "genre": "Trap", "score": 5 },
+  { "title": "Octane", "artist": "Don Toliver", "year": 2026, "genre": "Hip-Hop / Rap", "score": "8" }
 
   { "title": "Atrocity Exhibition", "artist": "Danny Brown", "year": 2016, "genre": "Hip-Hop / Experimental", "score": 8 },
   { "title": "SCARING THE HOES", "artist": "Danny Brown & JPEGMAFIA", "year": 2023, "genre": "Hip-Hop / Experimental", "score": 8 },
@@ -125,7 +126,12 @@
 
   { "title": "Good News", "artist": "Megan Thee Stallion", "year": 2020, "genre": "Hip-Hop / Trap", "score": 7 },
 
-  { "title": "CALL ME IF YOU GET LOST", "artist": "Tyler, The Creator", "year": 2021, "genre": "Hip-Hop", "score": 7 },
+  { "title": "CALL ME IF YOU GET LOST", "artist": "Tyler, The Creator", "year": 2021, "genre": "Hip-Hop", "score": 6 },
+  { "title": "IGOR", "artist": "Tyler, The Creator", "year": 2019, "genre": "Hip-Hop", "score": 7 },
+
+  { "title": "After Hours", "artist": "The Weeknd", "year": 2020, "genre": "R&B / Pop", "score": "7" }
+
+  { "title": "CARE FOR ME", "artist": "Saba", "year": 2018, "genre": "Hip-Hop", "score": "9" }
 
   { "title": "Culture", "artist": "Migos", "year": 2017, "genre": "Trap", "score": 9 },
   { "title": "Culture II", "artist": "Migos", "year": 2018, "genre": "Trap", "score": 8 },
